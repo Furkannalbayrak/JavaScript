@@ -1,10 +1,9 @@
 # JavaScript Codes
 
-Bu repository, temel, orta ve ileri düzey olmak üzere tasarlanmış JavaScript kodlarını içermektedir. 
-Projelerin hepsi HTML tabanlı projelerdir.
+This repository contains a variety of JavaScript code designed for basic, intermediate and advanced levels. All projects are HTML based projects.
 
-## 📌 Proje Listesi
+## 📌 Project List
 - [Body mass index](Body-mass-index/)
 - [Gas station](Gas-station/)
 
-Her projeye **tıklayarak** detaylarına ulaşabilirsiniz!
+You can access the details of each project by **click**!
