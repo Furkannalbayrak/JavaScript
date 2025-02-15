@@ -5,5 +5,6 @@ Projelerin hepsi HTML tabanlı projelerdir.
 
 ## 📌 Proje Listesi
 - [Body mass index](Body-mass-index/)
+- [Gas station](Gas-station/)
 
 Her projeye **tıklayarak** detaylarına ulaşabilirsiniz!
