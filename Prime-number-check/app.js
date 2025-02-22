@@ -1,4 +1,3 @@
-// ------------- ASAL SAYİ BULMA --------------
 
 let sayi = Number(prompt("Lütfen bir sayi giriniz : "));
 let toplam = 0;
