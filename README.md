@@ -6,5 +6,6 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Body mass index](Body-mass-index/)
 - [Gas station](Gas-station/)
 - [Prime number check](Prime-number-check/)
-
+- [Factorial caluculation](Factorial-calculation/)
+  
 You can access the details of each project by **click**!
