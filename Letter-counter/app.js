@@ -1,4 +1,3 @@
-// ------------ METİNDEKİ HARF SAYİSİNİ BULMA -------------
 
 let metin = prompt("Girmek istediğiniz metni giriniz: ");
 
