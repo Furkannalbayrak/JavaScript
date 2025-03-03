@@ -8,5 +8,6 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Prime number check](Prime-number-check/)
 - [Factorial calculation](Factorial-calculation/)
 - [Armstrong number check](Armstrong-number-check/)
+- [Letter counter](Letter-counter/)
   
 You can access the details of each project by **click**!
