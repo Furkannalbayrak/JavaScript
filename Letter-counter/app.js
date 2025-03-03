@@ -16,11 +16,3 @@ function bul(harf) {
 
 let sonuc = bul(harf);
 alert("Metinde " + sonuc + " tane " + harf + " harfi bulunmaktadır")
-
-
-
-
-
-
-
-
