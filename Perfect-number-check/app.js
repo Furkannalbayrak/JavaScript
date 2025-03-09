@@ -10,10 +10,10 @@ function mükSayi(sayi){
         }
     }
     if(sayi*2 == toplam){
-        console.log(sayi + " sayisi mükemmel sayidir");
+        alert(sayi + " sayisi mükemmel sayidir");
     }
     else{
-        console.log(sayi + " sayisi mükemmel sayi degildir");
+        alert(sayi + " sayisi mükemmel sayi degildir");
     }
 }
 
