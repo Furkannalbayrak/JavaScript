@@ -1,4 +1,3 @@
-// ------------ MÜKEMMEL SAYİ -------------
 
 let sayi = Number(prompt("Lütfen bir sayi giriniz : "));
 
