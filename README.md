@@ -9,5 +9,6 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Factorial calculation](Factorial-calculation/)
 - [Armstrong number check](Armstrong-number-check/)
 - [Letter counter](Letter-counter/)
+- [Perfect number check](Perfect-number-check/)
   
 You can access the details of each project by **click**!
