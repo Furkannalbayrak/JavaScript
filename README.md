@@ -10,5 +10,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Armstrong number check](Armstrong-number-check/)
 - [Letter counter](Letter-counter/)
 - [Perfect number check](Perfect-number-check/)
+- [Decimal to binary converter](Decimal-to-binary-converter/)
+  
   
 You can access the details of each project by **click**!
