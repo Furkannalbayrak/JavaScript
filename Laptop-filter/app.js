@@ -1,4 +1,3 @@
-// ------------ ÜRÜN ARAMA -------------
 
 let urun1 = {
     isim : "ACER swift 3",
