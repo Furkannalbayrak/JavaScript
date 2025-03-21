@@ -11,6 +11,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Letter counter](Letter-counter/)
 - [Perfect number check](Perfect-number-check/)
 - [Decimal to binary converter](Decimal-to-binary-converter/)
-  
+- [Binary to decimal converter](Binary-to-decimal-converter/)
+
   
 You can access the details of each project by **click**!
