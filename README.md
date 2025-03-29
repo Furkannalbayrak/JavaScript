@@ -30,7 +30,7 @@ You can access the details of each algorithm by **click**!
 
 You can access the details of each project by **click**!
 
-## 📥 How to Use?
+## 🛠 Kurulum ve Kullanım
 
 
 ## 📜 License
