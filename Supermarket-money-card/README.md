@@ -10,9 +10,8 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 - Kullanıcının satın aldığı ürünler ve ödenecek toplam tutar gösterilir.
 
 ## 📂 Proje Yapısı
-📁 Supermarket
-- [index.html](index.html/)
-- [Gas station](Main.js/)
+
+📁 Supermarket │-- index.html │-- Main.js │-- MigrosBase.js │-- musteri.js
 
 
 - **index.html**: HTML yapısını içerir ve JavaScript dosyalarını bağlar.
