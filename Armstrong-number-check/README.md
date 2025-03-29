@@ -1,5 +1,5 @@
 
-# Armstrong-number-check
+# Armstrong number check
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
