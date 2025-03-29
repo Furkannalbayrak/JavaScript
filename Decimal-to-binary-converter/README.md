@@ -1,5 +1,5 @@
 
-# Decimal-to-binary-converter
+# Decimal to Binary Converter
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
