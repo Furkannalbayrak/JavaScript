@@ -30,7 +30,7 @@ You can access the details of each algorithm by **click**!
 You can access the details of each project by **click**!
 
 ## 📥 How to Use?
-(Add instructions here)
+
 
 ## 📜 License
 This repository is provided under the MIT license. See the LICENSE file for more information.
