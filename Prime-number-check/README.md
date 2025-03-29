@@ -1,5 +1,5 @@
 
-# Prime-number-check
+# Prime Number Check
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
