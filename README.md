@@ -6,7 +6,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [🟢 Small Algorithms](#small-algorithms)
 - [🔵 Application Projects](#application-projects)
 - [🛠 Installation and Usage](#installation-and-usage)
-- [📜 License](##License)
+- [📜 License](#license)
 
 
 
@@ -37,7 +37,7 @@ Follow these steps to clone this project to your computer:
 1. **Clone the Project Folder**:
    - To clone the project from GitHub, run the following command in your terminal or command line:
      ```bash
-     git clone https://github.com/username/JavaScript.git
+     git clone https://github.com/Furkannalbayrak/JavaScript.git
      ```
 
 2. **Navigate to the Project Folder**:
