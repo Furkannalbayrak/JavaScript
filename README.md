@@ -6,7 +6,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [🟢 Small Algorithms](#small-algorithms)
 - [🔵 Application Projects](#application-projects)
 - [📥 How to Use?](#how-to-use)
-- [📜 License](#license)
+- [📜 License](##License)
 
 
 
