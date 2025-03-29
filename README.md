@@ -2,6 +2,12 @@
 
 This repository contains a variety of JavaScript code designed for basic, intermediate and advanced levels. All projects are HTML based projects.
 
+## 📌 Table of Contents
+- [🟢 Small Algorithms](#small-algorithms)
+- [🔵 Application Projects](#application-projects)
+- [📥 How to Use?](#how-to-use)
+- [📜 License](#license)
+
 ## 📌 Project List
 
 ### 🟢 Small Algorithms 
