@@ -1,5 +1,5 @@
 
-# Gas-station
+# Gas Station
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
