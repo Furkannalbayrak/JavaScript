@@ -2,7 +2,7 @@
 # Supermarket Money Card
 Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden basit bir JavaScript uygulamasıdır. Kullanıcıya Money kartının olup olmadığı sorulur ve buna göre indirim uygulanarak toplam ödeme tutarı hesaplanır.
 
-#🚀 Özellikler
+## 🚀 Özellikler
 
 -Kullanıcıdan isim ve soyisim bilgisi alınır.
 -Kullanıcıya Money kartının olup olmadığı sorulur.
