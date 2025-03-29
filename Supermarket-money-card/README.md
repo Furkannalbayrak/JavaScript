@@ -41,3 +41,6 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
    - Projeyi çalıştırmak için `index.html` dosyasını bir tarayıcıda açabilirsiniz.
 
 Proje yerel ortamda çalışacaktır ve JavaScript tarayıcıda doğru şekilde çalışacaktır.
+
+## 📜 License
+Bu proje MIT lisansı altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
