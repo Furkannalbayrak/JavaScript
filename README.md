@@ -26,6 +26,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 You can access the details of each algorithm by **click**!
 
 ### 🔵 Application Projects  
+- [Supermarket Money Card](Supermarket-money-card/)
 
 You can access the details of each project by **click**!
 
