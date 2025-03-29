@@ -17,7 +17,7 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 
 - **index.html**: HTML yapısını içerir ve JavaScript dosyalarını bağlar.
 - **Main.js**: Kullanıcıdan bilgileri alır ve alışveriş sürecini yönetir.
-- **MigrosBase.js**: Temel süpermarket sınıfını ve indirim hesaplamalarını içerir.
+- **MarketBase.js**: Temel süpermarket sınıfını ve indirim hesaplamalarını içerir.
 - **musteri.js**: Müşteri sınıfını tanımlar ve MigrosBase sınıfından türetilir.
 
 
