@@ -25,7 +25,11 @@ This repository contains a variety of JavaScript code designed for basic, interm
 
 
 ### 🔵 Application Projects  
-  
-
 
 You can access the details of each project by **click**!
+
+## 📥 How to Use?
+(Add instructions here)
+
+## 📜 License
+(Add license information here)
