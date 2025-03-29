@@ -12,10 +12,10 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 ## 📂 Proje Yapısı
 
 📁 Supermarket 
-- │-- index.html 
-- │-- Main.js 
-- │-- MigrosBase.js 
-- │-- musteri.js
+  │-- index.html 
+  │-- Main.js 
+  │-- MigrosBase.js 
+  │-- musteri.js
 
 
 - **index.html**: HTML yapısını içerir ve JavaScript dosyalarını bağlar.
