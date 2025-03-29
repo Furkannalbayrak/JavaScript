@@ -27,20 +27,20 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 
 1. **Proje Klasörünü Kopyalayın**:
    - GitHub'dan projeyi klonlamak için terminal veya komut satırında şu komutu çalıştırın:
-     ```sh
-     git clone https://github.com/kullanici_adi/JavaScript-Supermarket-money-card.git
+     ```bash
+     git clone https://github.com/kullanici_adi/JavaScript.git
      ```
 
 2. **Proje Klasörüne Girin**:
    - Klonlanan projeye gitmek için şu komutu çalıştırın:
-     ```sh
-     cd JavaScript-Supermarket-money-card
+     ```bash
+     cd JavaScript/Supermarket-money-card
      ```
 
 3. **Gerekli Dosyayı Açın**:
    - Projeyi çalıştırmak için `index.html` dosyasını bir tarayıcıda açabilirsiniz.
 
-Proje yerel ortamda çalışacaktır ve JavaScript tarayıcıda doğru şekilde çalışacaktır.
+Projeyi yerel ortamda çalıştırdığınızda, JavaScript tarayıcıda doğru şekilde çalışacaktır.
 
 ## 📜 License
 Bu proje MIT lisansı altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
