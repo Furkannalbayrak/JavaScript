@@ -23,7 +23,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Laptop filter](Laptop-filter/)
 - [Book finder](Book-finder/)
 
-You can access the details of each algorithms by **click**!
+You can access the details of each algorithm by **click**!
 
 ### 🔵 Application Projects  
 
