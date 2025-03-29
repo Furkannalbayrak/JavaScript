@@ -3,6 +3,7 @@
 This repository contains a variety of JavaScript code designed for basic, intermediate and advanced levels. All projects are HTML based projects.
 
 ## 📌 Project List
+### 🟢 Small Algorithms 
 - [Body mass index](Body-mass-index/)
 - [Gas station](Gas-station/)
 - [Prime number check](Prime-number-check/)
@@ -14,6 +15,8 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Binary to decimal converter](Binary-to-decimal-converter/)
 - [Laptop filter](Laptop-filter/)
 - [Book finder](Book-finder/)
+
+### 🔵 Application Projects  
   
 
 
