@@ -1,5 +1,5 @@
 
-# Binary to decimal converter
+# Binary to Decimal Converter
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
