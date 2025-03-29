@@ -1,5 +1,5 @@
 
-# Factorial-calculation
+# Factorial Calculation
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
