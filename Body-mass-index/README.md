@@ -1,4 +1,4 @@
-# Body-mass-index
+# Body Mass Index
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
