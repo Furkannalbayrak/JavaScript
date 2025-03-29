@@ -8,9 +8,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [📥 How to Use?](#how-to-use)
 - [📜 License](#license)
 
-
-
-
+You can access the details of each project by **click**!
 
 ### 🟢 Small Algorithms 
 - [Body mass index](Body-mass-index/)
@@ -28,7 +26,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 
 ### 🔵 Application Projects  
 
-You can access the details of each project by **click**!
+
 
 ## 📥 How to Use?
 (Add instructions here)
