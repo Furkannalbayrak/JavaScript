@@ -51,6 +51,11 @@ Follow these steps to clone this project to your computer:
      ```bash
      cd algorithms
      ```
+4. **Open the Required File**:
+   - To run the project, you can open the `index.html` file in a browser.
+     
+When you run the project locally, JavaScript will work correctly in the browser.
+     
 
 
 ## 📜 License
