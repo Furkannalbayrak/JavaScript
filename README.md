@@ -2,7 +2,7 @@
 
 This repository contains a variety of JavaScript code designed for basic, intermediate and advanced levels. All projects are HTML based projects.
 
-# 📌 Project List
+## 📌 Project List
 ### 🟢 Small Algorithms 
 - [Body mass index](Body-mass-index/)
 - [Gas station](Gas-station/)
