@@ -4,10 +4,10 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 
 ## 🚀 Özellikler
 
--Kullanıcıdan isim ve soyisim bilgisi alınır.
--Kullanıcıya Money kartının olup olmadığı sorulur.
--Kartı olan kullanıcılara %40 indirim uygulanır.
--Kullanıcının satın aldığı ürünler ve ödenecek toplam tutar gösterilir.
+- Kullanıcıdan isim ve soyisim bilgisi alınır.
+- Kullanıcıya Money kartının olup olmadığı sorulur.
+- Kartı olan kullanıcılara %40 indirim uygulanır.
+- Kullanıcının satın aldığı ürünler ve ödenecek toplam tutar gösterilir.
 
 ## 📂 Proje Yapısı
 📁 Supermarket
