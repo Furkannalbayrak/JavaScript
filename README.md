@@ -30,7 +30,27 @@ You can access the details of each algorithm by **click**!
 
 You can access the details of each project by **click**!
 
-## 🛠 Kurulum ve Kullanım
+## 🛠 Installation and Usage
+
+Follow these steps to clone this project to your computer:
+
+1. **Clone the Project Folder**:
+   - To clone the project from GitHub, run the following command in your terminal or command line:
+     ```bash
+     git clone https://github.com/username/JavaScript.git
+     ```
+
+2. **Navigate to the Project Folder**:
+   - To go to the cloned project, run the following command:
+     ```bash
+     cd JavaScript
+     ```
+
+3. **Enter the Algorithms Folder**:
+   - Navigate to the algorithms folder to access the file you want to run:
+     ```bash
+     cd algorithms
+     ```
 
 
 ## 📜 License
