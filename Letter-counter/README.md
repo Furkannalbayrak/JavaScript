@@ -1,5 +1,5 @@
 
-# Letter-counter
+# Letter Counter
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
