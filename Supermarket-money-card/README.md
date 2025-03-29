@@ -9,6 +9,13 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 -Kartı olan kullanıcılara %40 indirim uygulanır.
 -Kullanıcının satın aldığı ürünler ve ödenecek toplam tutar gösterilir.
 
+## 📂 Proje Yapısı
+- **index.html**: HTML yapısını içerir ve JavaScript dosyalarını bağlar.
+- **Main.js**: Kullanıcıdan bilgileri alır ve alışveriş sürecini yönetir.
+- **MigrosBase.js**: Temel süpermarket sınıfını ve indirim hesaplamalarını içerir.
+- **musteri.js**: Müşteri sınıfını tanımlar ve MigrosBase sınıfından türetilir.
+
+
 # Kullanılan Teknolojiler
 - HTML
 - JavaScript
