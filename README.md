@@ -30,7 +30,7 @@ You can access the details of each algorithm by **click**!
 
 You can access the details of each project by **click**!
 
-## 🛠 Installation and Usage
+## 🛠 Installation and Usage (For Small Algorithms Only)
 
 Follow these steps to clone this project to your computer:
 
