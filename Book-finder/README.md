@@ -1,5 +1,5 @@
 
-# Book-finder
+# Book Finder
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
