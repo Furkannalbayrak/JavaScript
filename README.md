@@ -33,4 +33,4 @@ You can access the details of each project by **click**!
 (Add instructions here)
 
 ## 📜 License
-(Add license information here)
+This repository is provided under the MIT license. See the LICENSE file for more information.
