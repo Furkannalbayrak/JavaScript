@@ -20,6 +20,7 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 ## 💻 Kullanılan Teknolojiler
 - HTML
 - JavaScript
+  
 
 ## 🛠 Kurulum ve Kullanım
 
@@ -41,6 +42,7 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
    - Projeyi çalıştırmak için `index.html` dosyasını bir tarayıcıda açabilirsiniz.
 
 Projeyi yerel ortamda çalıştırdığınızda, JavaScript tarayıcıda doğru şekilde çalışacaktır.
+
 
 ## 📜 License
 Bu proje MIT lisansı altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
