@@ -17,7 +17,7 @@ Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden
 - **musteri.js**: Müşteri sınıfını tanımlar ve MigrosBase sınıfından türetilir.
 
 
-# Kullanılan Teknolojiler
+## 💻 Kullanılan Teknolojiler
 - HTML
 - JavaScript
 
