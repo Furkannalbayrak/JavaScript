@@ -1,5 +1,5 @@
 
-# Laptop-filter
+# Laptop Filter
 Temel düzey HTML ve JavaScript ile geliştirilmiş bir uygulama.
 
 # Amacı
