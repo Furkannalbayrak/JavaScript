@@ -1,7 +1,7 @@
 
 
 # Todo List
-Basit ve kullanıcı dostu bir arayüzle oluşturulmuş bir **Todo List** uygulamasıdır. HTML, CSS, JavaScript ile geliştirilmiş olup, localStorage desteğiyle görevlerinizi kalıcı hale getirir. Bu uygulama responsive tasarım ile tasarlanmış olup ek olarak Bootstrap ve Font Awesome kütüphanesini kullanarak stil ve ikonlarla zenginleştirilmiştir.
+Basit ve kullanıcı dostu bir arayüzle oluşturulmuş bir **Todo List** uygulamasıdır. HTML, CSS, JavaScript ile geliştirilmiş olup, localStorage desteğiyle görevlerinizi kalıcı hale getirir. Bu uygulama responsive tasarım ile tasarlanmış olup ek olarak Bootstrap ve Font Awesome kütüphaneleri kullanılarak stil ve ikonlarla zenginleştirilmiştir.
 
 ## 🚀 Özellikler
 
