@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+hr {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(224, 220, 216, 0.5);
+}
+
+.genel_div {
+    border: 2px solid rgb(224, 220, 216);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+/* todo list sayfası */
+
+.todo_list_sayfasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(204, 197, 190);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(224, 220, 216);
+
+}
+
+.first_title {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.form_div {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(224, 220, 216);
+}
+
+.enter_todo {
+    padding: 11px;
+    border: 1px solid rgb(224, 220, 216);
+    border-radius: 5px;
+    width: 96%;
+    margin-left: 20px;
+    transition: .3s ease-in-out;
+}
+
+.add_todo {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(219, 170, 106);
+    border: none;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.todoList_title {
+    margin: 0 auto;
+    width: 96%;
+    margin-top: 35px;
+}
+
+.search_todo {
+    padding: 11px;
+    border: 1px solid rgb(224, 220, 216);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 16px;
+    transition: .3s ease-in-out;
+}
+
+.todoList {
+    margin: 0 auto;
+    border: 1px solid rgb(224, 220, 216);
+    width: 96%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.todo_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(224, 220, 216);
+    padding: 12px 0 12px 17px;
+
+}
+
+.todo_list:nth-child(4) {
+    border: none;
+}
+
+.clear_todo {
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(229, 19, 19);
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: .3s;
+
+}
+
+.last_button {
+    margin-top: 20px;
+}
+
+i {
+    padding-right: 20px;
+    color: blue;
+}
+
+.enter_todo:focus {
+    outline: none;
+    border: 1px solid rgb(224, 220, 216);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+
+}
+
+.search_todo:focus {
+    outline: none;
+    border: 1px solid rgb(224, 220, 216);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+.add_todo:hover {
+    background-color: rgb(178, 128, 62);
+}
+
+.clear_todo:hover {
+    background-color: rgb(155, 12, 12);
+    color: white;
+    text-decoration: none;
+}
+i:hover{
+    color: red;
+
+}
+.alert{
+    margin: 0 auto;
+    width: 97%;
+    margin-top: 15px;
+}
