@@ -11,7 +11,7 @@ Basit ve kullanıcı dostu bir arayüzle oluşturulmuş bir **Todo List** uygula
 - Görevler arasında anlık filtreleme (arama)
 - localStorage ile verilerin saklanması
 - Uyarı mesajları ile kullanıcıya geri bildirim
-- 📱 **Responsive tasarım**: Tüm ekran boyutlarında (mobil, tablet, masaüstü) uyumlu görünüm
+- **Responsive tasarım**: Tüm ekran boyutlarında (mobil, tablet, masaüstü) uyumlu görünüm
 
 ## 📂 Proje Yapısı
 
