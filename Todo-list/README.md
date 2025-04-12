@@ -1,27 +1,31 @@
 
 
-# Supermarket Money Card
-Bu proje, kullanıcıların süpermarkette alışveriş yapmasını simüle eden basit bir JavaScript uygulamasıdır. Kullanıcıya Money kartının olup olmadığı sorulur ve buna göre indirim uygulanarak toplam ödeme tutarı hesaplanır.
+# Todo List
+Basit ve kullanıcı dostu bir arayüzle oluşturulmuş bir **Todo List** uygulamasıdır. HTML, CSS, JavaScript ile geliştirilmiş olup, localStorage desteğiyle görevlerinizi kalıcı hale getirir. Bu uygulama responsive tasarım ile tasarlanmış olup ek olarak Bootstrap ve Font Awesome kütüphanesini kullanarak stil ve ikonlarla zenginleştirilmiştir.
 
 ## 🚀 Özellikler
 
-- Kullanıcıdan isim ve soyisim bilgisi alınır.
-- Kullanıcıya Money kartının olup olmadığı sorulur.
-- Kartı olan kullanıcılara %40 indirim uygulanır.
-- Kullanıcının satın aldığı ürünler ve ödenecek toplam tutar gösterilir.
+- Görev ekleme
+- Görev silme
+- Tüm görevleri temizleme
+- Görevler arasında anlık filtreleme (arama)
+- localStorage ile verilerin saklanması
+- Uyarı mesajları ile kullanıcıya geri bildirim
+- 📱 **Responsive tasarım**: Tüm ekran boyutlarında (mobil, tablet, masaüstü) uyumlu görünüm
 
 ## 📂 Proje Yapısı
 
-- **index.html**: HTML yapısını içerir ve JavaScript dosyalarını bağlar.
-- **Main.js**: Kullanıcıdan bilgileri alır ve alışveriş sürecini yönetir.
-- **MarketBase.js**: Temel süpermarket sınıfını ve indirim hesaplamalarını içerir.
-- **musteri.js**: Müşteri sınıfını tanımlar ve MigrosBase sınıfından türetilir.
+- **index.html**: Uygulamanın arayüzünü ve form yapısını barındıran ana HTML dosyası
+- **style.css**: Sayfanın görünümünü şekillendiren tüm özel stilleri içeren dosya
+- **app.js**: Todo ekleme, silme, filtreleme ve localStorage işlemlerini yöneten JavaScript dosyası
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
 - HTML
 - CSS
 - JavaScript
+- Bootstrap 4
+- Font Awesome
   
 
 ## 🛠 Kurulum ve Kullanım
