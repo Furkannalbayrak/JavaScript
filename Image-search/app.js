@@ -26,10 +26,13 @@ function search(e){
 
     const value = searchInput.value.trim();
 
+    ⚠️ Not: Bu proje Unsplash API kullanmaktadır. Kendi kullanımınız için [Unsplash Developers](https://unsplash.com/developers) sayfasından ücretsiz bir API anahtarı
+    alarak `app.js` dosyasındaki `Authorization` kısmına kendi anahtarınızı eklemeniz gerekmektedir.
+    
     fetch(`https://api.unsplash.com/search/photos?&query=${value}`, {
         method: "GET",
         headers: {
-            Authorization : "Client-ID PXpXWwyObwG7lCSoHvAHYw57Ebm6QWFQAN1dpv6RRuI"
+            Authorization : "Client-ID YOUR_ACCESS_KEY"
         }
     })
     .then((res)=> res.json())
