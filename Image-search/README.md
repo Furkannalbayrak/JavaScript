@@ -11,10 +11,9 @@ Bu proje, kullanıcıların Unsplash API üzerinden görsel araması yapmasını
 
 ## 📂 Proje Yapısı
 
-- **index.html**: HTML yapısını içerir ve JavaScript dosyalarını bağlar.
-- **Main.js**: Kullanıcıdan bilgileri alır ve alışveriş sürecini yönetir.
-- **MarketBase.js**: Temel süpermarket sınıfını ve indirim hesaplamalarını içerir.
-- **musteri.js**: Müşteri sınıfını tanımlar ve MigrosBase sınıfından türetilir.
+- **index.html**: Uygulamanın kullanıcı arayüzünü oluşturan temel HTML yapısını içerir.
+- **style.css**: Arayüzdeki görsellerin, butonların ve form elemanlarının stil ve düzenlemelerini sağlar.
+- **app.js**: Unsplash API ile iletişimi kurar, arama işlemlerini yönetir ve dinamik olarak görselleri kullanıcıya sunar.
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
