@@ -28,6 +28,7 @@ You can access the details of each algorithm by **click**!
 ### 🔵 Application Projects  
 - [Supermarket Money Card](Supermarket-money-card/)
 - [Todo List](Todo-list/)
+- [Image Search](Image-search/)
 
 You can access the details of each project by **click**!
 
