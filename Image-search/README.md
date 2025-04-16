@@ -1,6 +1,6 @@
 
 # Image Search
-Bu proje, kullanıcıların Unsplash API üzerinden görsel araması yapmasını sağlayan basit bir web uygulamasıdır. Kullanıcı bir kelime yazarak o kelimeyle ilgili görselleri arayabilir ve liste halinde görüntüleyebilir.
+Bu proje, kullanıcıların Unsplash API üzerinden görsel araması yapmasını sağlayan basit bir web uygulamasıdır. Kullanıcı bir kelime yazarak o kelimeyle ilgili görselleri arayabilir ve liste halinde görüntüleyebilir. Ayrıca uygulama, farklı cihazlarda sorunsuz çalışan uyumlu bir tasarıma sahiptir.
 
 ## 🚀 Özellikler
 
