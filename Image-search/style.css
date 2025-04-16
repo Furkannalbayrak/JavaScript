@@ -47,3 +47,21 @@
     padding: 15px;
     box-shadow: 5px 7px 10px grey;
 }
+
+@media(max-width: 900px){
+    #searchButton{
+        padding: 7px 80px 7px 80px;
+    }
+    #clearButton{
+        padding: 7px 80px 7px 80px;
+    }
+}
+
+@media(max-width: 600px){
+    #searchButton{
+        padding: 6px 65px 6px 65px;
+    }
+    #clearButton{
+        padding: 6px 65px 6px 65px;
+    }
+}
