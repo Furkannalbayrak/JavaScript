@@ -17,8 +17,6 @@ Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı ku
 - **app.js**: Kullanıcı etkileşimlerini kontrol eder. Miktar girildiğinde otomatik olarak hesaplama yapılmasını sağlar.
 - **currency.js**: API’den döviz kurlarını çeker ve para birimi dönüşümünü hesaplar.
 
-## Merhaba
-
 ## 💻 Kullanılan Teknolojiler
 
 - HTML5  
