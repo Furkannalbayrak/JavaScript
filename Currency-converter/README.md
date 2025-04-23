@@ -30,24 +30,21 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 
 1. **Proje Klasörünü Kopyalayın**:
    - GitHub'dan projeyi klonlamak için terminal veya komut satırında şu komutu çalıştırın:
-     
-bash
+     ```bash
      git clone https://github.com/Furkannalbayrak/JavaScript.git
-
+     ```
 
 2. **Proje Klasörüne Girin**:
    - Klonlanan projeye gitmek için şu komutu çalıştırın:
-     
-bash
-     cd JavaScript/Currency-converter
-
+     ```bash
+     cd JavaScript/Todo-list
+     ```
 
 3. **Gerekli Dosyayı Açın**:
-   - Projeyi çalıştırmak için index.html dosyasını bir tarayıcıda açabilirsiniz.
+   - Projeyi çalıştırmak için `index.html` dosyasını bir tarayıcıda açabilirsiniz.
 
 Projeyi yerel ortamda çalıştırdığınızda, JavaScript tarayıcıda doğru şekilde çalışacaktır.
 
 
 ## 📜 License
 Bu proje MIT lisansı altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
-
