@@ -12,10 +12,10 @@ Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı ku
 
 ## 📂 Proje Yapısı
 
-- **index.html**: Uygulamanın HTML yapısını içerir.
-- **style.css**: Arayüzün stil dosyasıdır.
-- **app.js**: Olay dinleyicilerini ve kullanıcı arayüzü etkileşimlerini yönetir.
-- **currency.js**: Kur verilerini çekme ve hesaplama işlemlerini gerçekleştirir.
+- **index.html**: Arayüzü oluşturan ana HTML dosyasıdır. Giriş alanı, para birimi seçenekleri ve sonuç kutusu bu dosyada yer alır.
+- **style.css**: Uygulamanın tasarım ve düzen ayarlarını içerir. Renk, yazı tipi ve yerleşim düzenlemeleri bu dosyada yapılır.
+- **app.js**: Kullanıcı etkileşimlerini kontrol eder. Miktar girildiğinde otomatik olarak hesaplama yapılmasını sağlar.
+- **currency.js**: API’den döviz kurlarını çeker ve para birimi dönüşümünü hesaplar.
 
 ## 💻 Kullanılan Teknolojiler
 
