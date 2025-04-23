@@ -37,7 +37,7 @@ Bu projeyi bilgisayarınıza klonlamak için şu adımları izleyin:
 2. **Proje Klasörüne Girin**:
    - Klonlanan projeye gitmek için şu komutu çalıştırın:
      ```bash
-     cd JavaScript/Todo-list
+     cd JavaScript/Currency-converter
      ```
 
 3. **Gerekli Dosyayı Açın**:
