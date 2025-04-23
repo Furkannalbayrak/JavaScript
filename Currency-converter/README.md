@@ -1,7 +1,7 @@
 
 # Döviz Kuru Çevirici 
 
-Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı kur bilgileriyle miktar dönüşümü yapabilmesini sağlayan basit ve işlevsel bir web uygulamasıdır. Kullanıcı iki para birimini seçer, bir miktar girer ve uygulama anında dönüşüm sonucunu gösterir.
+Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı kur bilgileriyle miktar dönüşümü yapabilmesini sağlayan basit ve işlevsel bir web uygulamasıdır. Kullanıcı iki para birimini seçer, bir miktar girer ve uygulama anında dönüşüm sonucunu gösterir. Bu uygulama responsive tasarım ile tasarlanmıştır.
 
 ## 🚀 Özellikler
 
