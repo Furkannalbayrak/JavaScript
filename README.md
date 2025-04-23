@@ -29,6 +29,7 @@ You can access the details of each algorithm by **click**!
 - [Supermarket Money Card](Supermarket-money-card/)
 - [Todo List](Todo-list/)
 - [Image Search](Image-search/)
+- [Currency Converter](Currency-converter/)
 
 You can access the details of each project by **click**!
 
