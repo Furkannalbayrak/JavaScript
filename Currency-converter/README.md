@@ -9,6 +9,7 @@ Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı ku
 - [FreeCurrencyAPI](https://freecurrencyapi.com) üzerinden gerçek zamanlı kur verileri
 - Temiz ve kullanıcı dostu arayüz
 - Otomatik hesaplama (miktar girildiğinde çalışır)
+- Responsive tasarım: Tüm ekran boyutlarında (mobil, tablet, masaüstü) uyumlu görünüm
 
 ## 📂 Proje Yapısı
 
