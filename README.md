@@ -30,6 +30,8 @@ You can access the details of each algorithm by **click**!
 - [Todo List](Todo-list/)
 - [Image Search](Image-search/)
 - [Currency Converter](Currency-converter/)
+- [Weather App](Weather-app/)
+  
 
 You can access the details of each project by **click**!
 
