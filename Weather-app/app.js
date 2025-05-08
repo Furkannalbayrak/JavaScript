@@ -16,6 +16,8 @@ runEventListeners();
 function runEventListeners(){
     form.addEventListener("submit", getData);                                
 }
+// ⚠️ Not: Bu proje OpenWeatherMap API kullanmaktadır. Kendi kullanımınız için [OpenWeatherMap API](https://openweathermap.org/api) sayfasından
+// ücretsiz bir API anahtarı alarak `app.js` dosyasındaki `myKey` değişkenine kendi anahtarınızı eklemeniz gerekmektedir.
 
 async function getData(e){
     e.preventDefault();
