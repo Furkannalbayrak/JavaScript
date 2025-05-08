@@ -14,8 +14,7 @@ const bulutOrani = document.querySelector(".bulutOrani");
 runEventListeners();
 
 function runEventListeners(){
-    form.addEventListener("submit", getData); //submit dersek formun içindeki buttondan bahsederiz ve ona basıldıgında oluşur (form ile almalıyız)
-                                              //click dersek button diye almalıyız
+    form.addEventListener("submit", getData);                                
 }
 
 async function getData(e){
@@ -28,10 +27,10 @@ async function getData(e){
         return;
     }
 
-    sonuclar.classList.add("hidden");  //hidden classında display:none var yani yazılanları göstermiyor
+    sonuclar.classList.add("hidden"); 
 
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&lang=tr&appid=${myKey}`);
-    if(!response.ok){ //istek başarısız oldugunda çlışan kalıp kod (!(istegi ne ile tuttuysan).ok)
+    if(!response.ok){
         alert("Şehir bulunamadı veya bir hata oluştu !");
         return;
     }
@@ -45,7 +44,7 @@ async function getData(e){
     nem.textContent = `Nem : %${data.main.humidity}`;
     bulutOrani.textContent = `Bulut Oranı : %${data.clouds.all}`;
 
-    sonuclar.classList.remove("hidden"); //hidden classında display:none var bunu kaldırınca yazılanlar gözüküyor
+    sonuclar.classList.remove("hidden");
 
     input.value = "";
 }
