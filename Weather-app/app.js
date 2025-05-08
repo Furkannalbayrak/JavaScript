@@ -20,7 +20,7 @@ function runEventListeners(){
 async function getData(e){
     e.preventDefault();
     const value = input.value.trim();
-    const myKey = "49d3ef97a73450a14638507417027c8f";
+    const myKey = "YOUR_API_KEY";
 
     if(value == ""){
         alert("Lütfen bir şehir ismi girin !");
@@ -48,5 +48,4 @@ async function getData(e){
 
     input.value = "";
 }
-
 
