@@ -16,7 +16,7 @@ Bu proje, kullanıcıların belirli bir şehir ismini girerek OpenWeatherMap API
 
 - **index.html**: Uygulamanın kullanıcı arayüzünü oluşturan temel HTML yapısını içerir.
 - **style.css**: Arayüzdeki görsellerin, butonların ve form elemanlarının stil ve düzenlemelerini sağlar.
-- **app.js**: OpenWeatherMap API ile bağlantı kurar, veri çeker ve DOM’a yazar.
+- **app.js**: OpenWeatherMap API ile şehir bilgisine göre hava durumu verilerini çeker. Alınan verileri işleyip, kullanıcı arayüzüne dinamik olarak yansıtır.
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
