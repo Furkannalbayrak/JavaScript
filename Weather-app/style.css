@@ -74,3 +74,17 @@ h2{
 .hidden{
     display: none;
 }
+
+
+
+
+@media(max-width:600px){
+    
+
+    .sonuclar{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 32px;
+    }
+}
