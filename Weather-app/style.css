@@ -88,3 +88,15 @@ h2{
         font-size: 32px;
     }
 }
+@media(min-width:600px){
+    
+    .getCity{
+        width: 48%;
+    }
+    .button{
+        width: 30%;
+    }
+    h2{
+        font-size: 34px;
+    }
+}
