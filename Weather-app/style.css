@@ -11,52 +11,66 @@ body{
     background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220313/pngtree-blue-sky-and-white-clouds-weather-hd-photography-background-material-image_1007862.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .title{
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
-    font-size: 35px;
-    width: 80%;
+    font-size: 32px;
+    width: 100%;
     justify-content: center;
+    text-align: center;
+}
+.title h1{
+    width: 80%;
+}
+.getInputChild{
+    display: flex;
+    flex-direction: column;
 }
 .getInput{
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
-    width: 25%;
+    width: 100%;
 }
 .getCity{
+    width: 60%;
+    margin: 0 auto;
     padding: 10px 50px 10px 50px;
     border-radius: 20px;
     border: 2px solid rgb(119, 112, 112);
     text-align: center;
     outline: none; /*tıklandıgında çıkan siyah kenarlığı kaldırır */
-    font-size: 16px;
+    font-size: 18px;
 }
 .button{
+    width: 36%;
+    margin: 0 auto;
     margin-top: 24px;
-    padding: 5px 10px 5px 10px;
+    padding: 9px 11px 9px 11px;
     border: 2px solid rgb(119, 112, 112);
     border-radius: 15px;
     transition: 0.5s;
     cursor: pointer;
+    font-size: 15px;
 }
 .button:hover{
     background-color: rgb(190, 183, 183);
 }
 .sonuclar{
-    margin: 65px auto;
-    width: 31%;
+    width: 90%;
+    margin: 0 auto;
     font-size: 26px;
+    text-align: center;
+    margin-top: 50px;
 }
 h2{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
-p{
-    margin-left: 23%;
-}
+
 .hidden{
     display: none;
 }
