@@ -80,7 +80,6 @@ h2{
 
 @media(max-width:600px){
     
-
     .sonuclar{
         font-size: 25px;
     }
@@ -101,6 +100,7 @@ h2{
     }
 }
 @media(min-width:900px){
+    
     .title{
         font-size: 35px;
     }
@@ -128,3 +128,6 @@ h2{
         font-size: 40px;
     }
 }
+
+
+
