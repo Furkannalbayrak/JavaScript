@@ -1,5 +1,5 @@
 
-# Weather App
+# Weather Uygulaması
 Bu proje, kullanıcıların belirli bir şehir ismini girerek OpenWeatherMap API üzerinden anlık hava durumu verilerini almasını sağlayan basit ve işlevsel bir web uygulamasıdır. Kullanıcı, girdiği şehirle ilgili sıcaklık, nem, rüzgar hızı, hissedilen sıcaklık ve bulut oranı gibi verilere erişebilir. Ayrıca uygulama, farklı cihazlarda sorunsuz çalışan responsive bir tasarıma sahiptir.
 
 
