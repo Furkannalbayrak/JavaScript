@@ -43,7 +43,7 @@ function pageLoaded(){
 function checkCircle(e){
     if(e.target.className == "fa-regular fa-circle circle"){
 
-        const taskName = e.target.parentElement.textContent.trim();
+        const taskName = e.target.parentElement.parentElement.textContent.trim();
 
         if(e.target.style.backgroundColor == "red"){
             e.target.style.backgroundColor = "white";
@@ -59,6 +59,14 @@ function checkCircle(e){
 function taskCircle(taskName, status){
     let circles = JSON.parse(localStorage.getItem("circles")) || {};
     circles[taskName] = status;
+    localStorage.setItem("circles", JSON.stringify(circles));
+}
+
+function removeStorageCircle(taskName){
+    let circles = JSON.parse(localStorage.getItem("circles")) || {};
+
+    delete circles[taskName];
+    
     localStorage.setItem("circles", JSON.stringify(circles));
 }
 
@@ -80,10 +88,11 @@ function clearAllTask(){
 function removeTask(e){
     if(e.target.className == "fa-solid fa-xmark xmark"){
 
-        const task = e.target.parentElement;
+        const task = e.target.parentElement.parentElement;
         task.remove();
 
         removeStorage(task);
+        removeStorageCircle(task.textContent);
     }
 }
 
@@ -120,15 +129,26 @@ function addtoStorage(value){
 function addNewList(value){
     const li = document.createElement("li");
     li.classList = "showListChild";
-    li.textContent = value;
     
     const i = document.createElement("i");
     i.classList = "fa-solid fa-xmark xmark";
 
+    const div = document.createElement("div");
+    div.classList = "todoName";
+    div.textContent = value;
+    
+    const div2 = document.createElement("div");
+    div.classList = "options";
+
+
     const i2 = document.createElement("i");
     i2.classList = "fa-regular fa-circle circle";
 
-    li.appendChild(i2);
-    li.appendChild(i);
+    li.appendChild(div);
+
+    div2.appendChild(i2);
+    div2.appendChild(i);
+    
+    li.appendChild(div2);
     list.appendChild(li);
 }
