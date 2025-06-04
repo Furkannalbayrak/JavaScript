@@ -143,7 +143,6 @@ function removeStorageCircle(taskName){
 
 
 function clearAllTask(){
-
     if(list.children.length == 0){
         alert("En az bir görev bulunmalı !");
         return;
@@ -156,7 +155,6 @@ function clearAllTask(){
     localStorage.clear();
     dizi = [];
 }
-
 
 
 
