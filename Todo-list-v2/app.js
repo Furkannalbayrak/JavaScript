@@ -40,71 +40,6 @@ function pageLoaded(){
     })
 }
 
-function checkCircle(e){
-    if(e.target.className == "fa-regular fa-circle circle"){
-
-        const taskName = e.target.parentElement.parentElement.textContent.trim();
-
-        if(e.target.style.backgroundColor == "red"){
-            e.target.style.backgroundColor = "white";
-            taskCircle(taskName, "incompleted");
-        }
-        else{
-            e.target.style.backgroundColor = "red";
-            taskCircle(taskName, "completed");
-        }
-    }
-}
-
-function taskCircle(taskName, status){
-    let circles = JSON.parse(localStorage.getItem("circles")) || {};
-    circles[taskName] = status;
-    localStorage.setItem("circles", JSON.stringify(circles));
-}
-
-function removeStorageCircle(taskName){
-    let circles = JSON.parse(localStorage.getItem("circles")) || {};
-
-    delete circles[taskName];
-    
-    localStorage.setItem("circles", JSON.stringify(circles));
-}
-
-function clearAllTask(){
-
-    if(list.children.length == 0){
-        alert("En az bir görev bulunmalı !");
-        return;
-    }
-
-    Array.from(list.children).forEach((element) =>{
-        element.remove();
-    })
-
-    localStorage.clear();
-    dizi = [];
-}
-
-function removeTask(e){
-    if(e.target.className == "fa-solid fa-xmark xmark"){
-
-        const task = e.target.parentElement.parentElement;
-        task.remove();
-
-        removeStorage(task);
-        removeStorageCircle(task.textContent);
-    }
-}
-
-function removeStorage(task){
-
-    dizi.forEach((element, index) =>{
-        if(task.textContent == element){
-            dizi.splice(index, 1);
-        }
-    })
-    localStorage.setItem("dizi", JSON.stringify(dizi));
-}
 
 function addTask(e){
     e.preventDefault();
@@ -152,3 +87,76 @@ function addNewList(value){
     li.appendChild(div2);
     list.appendChild(li);
 }
+
+
+function checkCircle(e){
+    if(e.target.className == "fa-regular fa-circle circle"){
+
+        const taskName = e.target.parentElement.parentElement.textContent.trim();
+
+        if(e.target.style.backgroundColor == "red"){
+            e.target.style.backgroundColor = "white";
+            taskCircle(taskName, "incompleted");
+        }
+        else{
+            e.target.style.backgroundColor = "red";
+            taskCircle(taskName, "completed");
+        }
+    }
+}
+
+function taskCircle(taskName, status){
+    let circles = JSON.parse(localStorage.getItem("circles")) || {};
+    circles[taskName] = status;
+    localStorage.setItem("circles", JSON.stringify(circles));
+}
+
+
+function removeTask(e){
+    if(e.target.className == "fa-solid fa-xmark xmark"){
+
+        const task = e.target.parentElement.parentElement;
+        task.remove();
+
+        removeStorage(task);
+        removeStorageCircle(task.textContent);
+    }
+}
+
+function removeStorage(task){
+
+    dizi.forEach((element, index) =>{
+        if(task.textContent == element){
+            dizi.splice(index, 1);
+        }
+    })
+    localStorage.setItem("dizi", JSON.stringify(dizi));
+}
+
+function removeStorageCircle(taskName){
+    let circles = JSON.parse(localStorage.getItem("circles")) || {};
+
+    delete circles[taskName];
+    
+    localStorage.setItem("circles", JSON.stringify(circles));
+}
+
+
+function clearAllTask(){
+
+    if(list.children.length == 0){
+        alert("En az bir görev bulunmalı !");
+        return;
+    }
+
+    Array.from(list.children).forEach((element) =>{
+        element.remove();
+    })
+
+    localStorage.clear();
+    dizi = [];
+}
+
+
+
+
