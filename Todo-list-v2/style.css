@@ -26,17 +26,17 @@
 }
 .getTask{
     text-align: center;
-    padding: 8px 30px 8px 30px;
+    padding: 12px 30px 12px 30px;
     border-radius: 25px;
 }   
 .button{
     display: flex;
     margin: 25px auto;
-    width: 50%;
+    width: 55%;
     justify-content: center;
     border-radius: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     cursor: pointer;
     transition: 0.5s;
 
@@ -55,16 +55,24 @@
     min-height: 0px;
     gap: 10px;
 }
+.todoName{
+    border: 0px solid red;
+}
+.options{
+    display: flex;
+    gap: 40px;
+}
+
 .showList li{
     display: flex;
+    justify-content: space-between;
     border: 1px solid grey;
     padding: 10px 20px 10px 15px;
     border-radius: 20px;
-    justify-content: space-between;
     align-items: center;
 }
 .xmark{
-    font-size: 22px;
+    font-size: 25px;
     color: blue;
     cursor: pointer;
 }
@@ -72,11 +80,9 @@
     color: red;
 }
 .circle{
-    position: absolute;
     border-radius: 50px;
-    left: 68%;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 25px;
     background-color: white;
 }
 
@@ -95,3 +101,6 @@
 .clearAll:hover{
     background-color: blue;
 }
+
+
+
