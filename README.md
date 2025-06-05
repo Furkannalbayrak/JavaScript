@@ -28,7 +28,7 @@ You can access the details of each algorithm by **click**!
 ### 🔵 Application Projects  
 - [Supermarket Money Card](Supermarket-money-card/)
 - [Todo List](Todo-list/)
-- [Todo List V2](Todo-list-v2/)
+- [Todo List v2](Todo-list-v2/)
 - [Image Search](Image-search/)
 - [Currency Converter](Currency-converter/)
 - [Weather App](Weather-app/)
