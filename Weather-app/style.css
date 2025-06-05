@@ -79,7 +79,6 @@ h2{
 
 
 @media(max-width:600px){
-    
     .sonuclar{
         font-size: 25px;
     }
@@ -87,8 +86,8 @@ h2{
         font-size: 32px;
     }
 }
+
 @media(min-width:600px){
-    
     .getCity{
         width: 48%;
     }
@@ -99,8 +98,8 @@ h2{
         font-size: 34px;
     }
 }
+
 @media(min-width:900px){
-    
     .title{
         font-size: 35px;
     }
@@ -116,8 +115,8 @@ h2{
         font-size: 38px;
     }
 }
+
 @media(min-width:1200px){
-    
     .getCity{
         width: 30%;
     }
