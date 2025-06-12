@@ -17,7 +17,7 @@ Bu proje, kullanıcıların görevlerini ekleyip, işaretleyip ve silebildiği b
 
 - **index.html**: Uygulamanın temel HTML yapısı, form alanı ve liste yapısı burada yer alır.
 - **style.css**: Uygulamanın genel tasarımı ve stil dosyası. Responsive yapı, butonlar, görev kutuları burada şekillendirilmiştir.
-- **app.js**: Görev ekleme, silme, tamamlanma durumu işaretleme, tüm listeyi temizleme gibi tüm dinamik işlemleri içerir. Verileri tarayıcıya kaydetmek için localStorage kullanılır.
+- **app.js**:Görev ekleme, silme, tamamlama ve temizleme işlemlerini yönetir. Veriler localStorage ile saklanır.
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
