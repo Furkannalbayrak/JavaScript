@@ -1,29 +1,29 @@
 
 # Todo List v2
-Basit ve kullanıcı dostu bir arayüzle oluşturulmuş bir **Todo List** uygulamasıdır. HTML, CSS, JavaScript ile geliştirilmiş olup, localStorage desteğiyle görevlerinizi kalıcı hale getirir. Bu uygulama responsive tasarım ile tasarlanmış olup ek olarak Bootstrap ve Font Awesome kütüphaneleri kullanılarak stil ve ikonlarla zenginleştirilmiştir.
+Bu proje, kullanıcıların görevlerini ekleyip, işaretleyip ve silebildiği basit ve işlevsel bir görev yönetim uygulamasıdır. Kullanıcılar ekledikleri görevleri tarayıcıda yerel olarak saklayabilir, tamamlanan görevleri işaretleyebilir veya tüm listeyi temizleyebilir. Uygulama tüm cihazlarla uyumlu, responsive bir tasarıma sahiptir.
 
 ## 🚀 Özellikler
 
 - Görev ekleme
+- Eklenen görevleri listeleme
+- Görevleri tamamlandı olarak işaretleme (kırmızı daireyle gösterilir)
 - Görev silme
 - Tüm görevleri temizleme
-- Görevler arasında anlık filtreleme (arama)
 - localStorage ile verilerin saklanması
 - Uyarı mesajları ile kullanıcıya geri bildirim
 - **Responsive tasarım**: Tüm ekran boyutlarında (mobil, tablet, masaüstü) uyumlu görünüm
 
 ## 📂 Proje Yapısı
 
-- **index.html**: Uygulamanın arayüzünü ve form yapısını barındıran ana HTML dosyası
-- **style.css**: Sayfanın görünümünü şekillendiren tüm özel stilleri içeren dosya
-- **app.js**: Todo ekleme, silme, filtreleme ve localStorage işlemlerini yöneten JavaScript dosyası
+- **index.html**: Uygulamanın temel HTML yapısı, form alanı ve liste yapısı burada yer alır.
+- **style.css**: Uygulamanın genel tasarımı ve stil dosyası. Responsive yapı, butonlar, görev kutuları burada şekillendirilmiştir.
+- **app.js**: Görev ekleme, silme, tamamlanma durumu işaretleme, tüm listeyi temizleme gibi tüm dinamik işlemleri içerir. Verileri tarayıcıya kaydetmek için localStorage kullanılır.
 
 
 ## 💻 Kullanılan Teknolojiler ve Yazılım Dilleri
 - HTML
 - CSS
 - JavaScript
-- Bootstrap 4
 - Font Awesome
   
 
