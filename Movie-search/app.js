@@ -13,12 +13,6 @@ function runEventListeners(){
             showDetails(e);
         }
     })
-
-//     container2.addEventListener("click", (e) =>{      contains ile yapma
-//         if(e.target.classList.contains("showDetails")){
-//             showDetails(e);
-//         }
-//     })
 }
 
 function showDetails(e){
