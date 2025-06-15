@@ -75,3 +75,5 @@ function addNewDetails(data){
     container.appendChild(div2);
 
 }
+
+
