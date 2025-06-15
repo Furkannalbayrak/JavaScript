@@ -6,7 +6,7 @@ Bu proje, kullanıcıların belirli bir şehir ismini girerek OpenWeatherMap API
 ## 🚀 Özellikler
 
 - Kullanıcıdan şehir ismi alınır.
-- OpenWeatherMap API ile hava durumu verileri çekilir.
+- [OpenweatherMap API](https://openweathermap.org/) üzerinden hava durumu verileri çekilir.
 - Şehir adı, sıcaklık, hissedilen sıcaklık, hava durumu açıklaması, rüzgar hızı, nem ve bulut oranı gösterilir.
 - Bilgiler dinamik olarak ekrana yazdırılır.
 - Geçersiz şehir ismi girildiğinde kullanıcı uyarılır.
