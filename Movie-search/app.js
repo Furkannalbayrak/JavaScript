@@ -83,3 +83,5 @@ function addNewMovie(name, poster){
     div2.appendChild(button);
     container2.appendChild(div2);
 }
+
+
