@@ -5,7 +5,7 @@ Bu proje, kullanıcıların Unsplash API üzerinden görsel araması yapmasını
 ## 🚀 Özellikler
 
 - Kullanıcıdan arama terimi alınır.
-- Unsplash API üzerinden o terime ait görseller çekilir.
+- [Unsplash API](https://unsplash.com/developers) üzerinden o terime ait görseller çekilir.
 - Görseller kart yapısında dinamik olarak gösterilir.
 - "Temizle" butonu ile hem arama kutusu hem de görseller temizlenir.
 - **Responsive tasarım**: Tüm ekran boyutlarında (mobil, tablet, masaüstü) uyumlu görünüm
