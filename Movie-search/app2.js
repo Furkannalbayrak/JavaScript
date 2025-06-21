@@ -1,11 +1,14 @@
 
+// ⚠️ Not: Bu proje OMDb API kullanmaktadır. Kendi kullanımınız için [OMDb API](https://www.omdbapi.com/) sayfasından ücretsiz bir API anahtarı alarak
+// `app.js` ve `app2.js` dosyalarındaki `myKey` değişkenine kendi anahtarınızı eklemeniz gerekmektedir.
+
 const container = document.querySelector(".container");
 
 runEventListener();
 
 async function runEventListener(){
     const value = sessionStorage.getItem("value");
-    const myKey = "d8b2f19f";
+    const myKey = "YOUR_API_KEY";
 
     const response = await fetch(`http://www.omdbapi.com/?apikey=${myKey}&t=${value}`);
     if(!response.ok){
