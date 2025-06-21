@@ -21,10 +21,13 @@ function showDetails(e){
     window.open("index2.html", "_blank");
 }
 
+// ⚠️ Not: Bu proje OMDb API kullanmaktadır. Kendi kullanımınız için [OMDb API](https://www.omdbapi.com/) sayfasından ücretsiz bir API anahtarı alarak
+// `app.js` ve `app2.js` dosyalarındaki `myKey` değişkenine kendi anahtarınızı eklemeniz gerekmektedir.
+
 async function listMovie(e){
     e.preventDefault();
     const value = getMovie.value.trim();
-    const myKey = "d8b2f19f";
+    const myKey = "YOUR_API_KEY";
     if(value == ""){
         alert("Boş bırakmayınız");
         return;
