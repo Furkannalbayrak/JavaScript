@@ -32,6 +32,7 @@ You can access the details of each algorithm by **click**!
 - [Image Search](Image-search/)
 - [Currency Converter](Currency-converter/)
 - [Weather App](Weather-app/)
+- [Movie Search](Movie-search/)
   
 
 You can access the details of each project by **click**!
