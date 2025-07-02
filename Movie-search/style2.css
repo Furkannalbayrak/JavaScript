@@ -59,7 +59,7 @@ img{
     }
 }
 
-@media(max-width: 900px){
+@media(max-width: 1000px){
     .container{
         width: 100%;
         border-radius: 0;
