@@ -1,6 +1,6 @@
 # JavaScript Codes
 
-This repository contains a variety of JavaScript code designed for basic, intermediate and advanced levels. All projects are HTML based projects.
+Bu depo, temel, orta ve ileri düzeyler için tasarlanmış çeşitli JavaScript kodları içerir. Tüm projeler HTML tabanlı projelerdir.
 
 ## 📌 Table of Contents
 - [🟢 Small Algorithms](#small-algorithms)
@@ -23,7 +23,7 @@ This repository contains a variety of JavaScript code designed for basic, interm
 - [Laptop filter](Laptop-filter/)
 - [Book finder](Book-finder/)
 
-You can access the details of each algorithm by **click**!
+Her algoritmaya **tıklayarak** detaylarına ulaşabilirsiniz!
 
 ### 🔵 Application Projects  
 - [Supermarket Money Card](Supermarket-money-card/)
@@ -34,36 +34,35 @@ You can access the details of each algorithm by **click**!
 - [Weather App](Weather-app/)
 - [Movie Search](Movie-search/)
   
-
-You can access the details of each project by **click**!
+Her projeye **tıklayarak** detaylarına ulaşabilirsiniz!
 
 ## 🛠 Installation and Usage (For Small Algorithms Only)
 
-Follow these steps to clone this project to your computer:
+Bilgisayarınıza bu projeyi klonlamak için şu adımları izleyin:
 
-1. **Clone the Project Folder**:
-   - To clone the project from GitHub, run the following command in your terminal or command line:
+1. **Proje Klasörünü Klonlayın**:
+   - Projeyi GitHub’dan klonlamak için terminalinize veya komut satırınıza şu komutu yazın:
      ```bash
      git clone https://github.com/Furkannalbayrak/JavaScript.git
      ```
 
-2. **Navigate to the Project Folder**:
-   - To go to the cloned project, run the following command:
+2. **Proje Klasörüne Girin**:
+   - Klonlanan projeye girmek için şu komutu çalıştırın:
      ```bash
      cd JavaScript
      ```
 
-3. **Enter the Algorithms Folder**:
-   - Navigate to the algorithms folder to access the file you want to run:
+3. **İstediğiniz Projeye Girin**:
+   - Örneğin “Body mass index” projesini açmak için:
      ```bash
      cd algorithms
      ```
-4. **Open the Required File**:
-   - To run the project, you can open the `index.html` file in a browser.
+4. **Gerekli Dosyayı Açın**:
+   - Projeyi çalıştırmak için `index.html` dosyasını tarayıcıda açabilirsinz.
      
-When you run the project locally, JavaScript will work correctly in the browser.
+Projeyi yerel olarak çalıştırdığınızda, JavaScript kodları tarayıcıda sorunsuz şekilde çalışacaktır.
      
 
 
 ## 📜 License
-This repository is provided under the MIT license. See the LICENSE file for more information.
+Bu depo **MIT lisansı** altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
