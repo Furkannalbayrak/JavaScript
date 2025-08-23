@@ -1,6 +1,6 @@
 # JavaScript Codes
 
-Bu depo, temel, orta ve ileri düzeyler için tasarlanmış çeşitli JavaScript kodları içerir. Tüm projeler HTML tabanlı projelerdir.
+Bu repo, temel, orta ve ileri düzeyler için tasarlanmış çeşitli JavaScript kodları içerir. Tüm projeler HTML tabanlı projelerdir.
 
 ## 📌 Table of Contents
 - [🟢 Small Algorithms](#small-algorithms)
