@@ -55,7 +55,7 @@ Bilgisayarınıza bu projeyi klonlamak için şu adımları izleyin:
 3. **İstediğiniz Projeye Girin**:
    - Örneğin “Body mass index” projesini açmak için:
      ```bash
-     cd algorithms
+     cd Body-mass-index
      ```
 4. **Gerekli Dosyayı Açın**:
    - Projeyi çalıştırmak için `index.html` dosyasını tarayıcıda açabilirsinz.
