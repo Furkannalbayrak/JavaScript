@@ -65,4 +65,4 @@ Projeyi yerel olarak çalıştırdığınızda, JavaScript kodları tarayıcıda
 
 
 ## 📜 License
-Bu depo **MIT lisansı** altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
+Bu repo **MIT lisansı** altında sunulmaktadır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
