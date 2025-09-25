@@ -5,9 +5,9 @@ const list = document.querySelector(".showList");
 const clearButton = document.querySelector(".clearAll");
 
 runEventListeners();
-dizi = [];
+let dizi = [];
 
-function runEventListeners(){
+function runEventListeners() {
     document.addEventListener("DOMContentLoaded", pageLoaded);
 
     form.addEventListener("submit", addTask);
@@ -16,17 +16,17 @@ function runEventListeners(){
     clearButton.addEventListener("click", clearAllTask);
 }
 
-function pageLoaded(){
-    if(localStorage.getItem("dizi") == null){
+function pageLoaded() {
+    if (localStorage.getItem("dizi") == null) {
         dizi = [];
     }
-    else{
+    else {
         dizi = JSON.parse(localStorage.getItem("dizi"));
     }
     //const dizi = JSON.parse(localStorage.getItem("dizi")) || []; //eger dizi yoksa boş dizi oluştur
     const circles = JSON.parse(localStorage.getItem("circles")) || {}; // Eğer circles yoksa boş obje oluştur
 
-    dizi.forEach((element) =>{
+    dizi.forEach((element) => {
         addNewList(element);
 
         const taskItem = Array.from(document.querySelectorAll("li")).find(
@@ -34,86 +34,53 @@ function pageLoaded(){
         );
 
         const circle = taskItem.querySelector(".circle");
-        if(circles[element] == "completed") {
-            circle.style.backgroundColor = "red";
+        if (circles[element] == "completed") {
+            circle.style.backgroundColor = "#35B200";
         }
     })
+    input.focus()
 }
 
-
-function addTask(e){
-    e.preventDefault();
-    const value = input.value.trim();
-
-    if(value == ""){
-        alert("Lütfen bir görev giriniz !");
-        return;
-    }
-
-    addNewList(value);
-    addtoStorage(value);
-
-    input.value = "";
-}
-
-function addtoStorage(value){
-    dizi.push(value);
-    localStorage.setItem("dizi", JSON.stringify(dizi));
-}
-
-function addNewList(value){
-    const li = document.createElement("li");
-    li.classList = "showListChild";
-    
-    const i = document.createElement("i");
-    i.classList = "fa-solid fa-xmark xmark";
-
-    const div = document.createElement("div");
-    div.classList = "todoName";
-    div.textContent = value;
-    
-    const div2 = document.createElement("div");
-    div.classList = "options";
-
-
-    const i2 = document.createElement("i");
-    i2.classList = "fa-regular fa-circle circle";
-
-    li.appendChild(div);
-
-    div2.appendChild(i2);
-    div2.appendChild(i);
-    
-    li.appendChild(div2);
-    list.appendChild(li);
-}
-
-
-function checkCircle(e){
-    if(e.target.className == "fa-regular fa-circle circle"){
-
+function checkCircle(e) {
+    if (e.target.classList.contains("circle")) {
         const taskName = e.target.parentElement.parentElement.textContent.trim();
-
-        if(e.target.style.backgroundColor == "red"){
-            e.target.style.backgroundColor = "white";
-            taskCircle(taskName, "incompleted");
-        }
-        else{
-            e.target.style.backgroundColor = "red";
-            taskCircle(taskName, "completed");
-        }
+        e.target.classList.toggle("completed");
+        taskCircle(taskName, e.target.classList.contains("completed") ? "completed" : "incompleted");
     }
 }
 
-function taskCircle(taskName, status){
+function taskCircle(taskName, status) {
     let circles = JSON.parse(localStorage.getItem("circles")) || {};
     circles[taskName] = status;
     localStorage.setItem("circles", JSON.stringify(circles));
 }
 
+function removeStorageCircle(taskName) {
+    let circles = JSON.parse(localStorage.getItem("circles")) || {};
 
-function removeTask(e){
-    if(e.target.className == "fa-solid fa-xmark xmark"){
+    delete circles[taskName];
+
+    localStorage.setItem("circles", JSON.stringify(circles));
+}
+
+function clearAllTask() {
+
+    if (list.children.length == 0) {
+        alert("En az bir görev bulunmalı !");
+        return;
+    }
+
+    Array.from(list.children).forEach((element) => {
+        element.remove();
+    })
+
+    localStorage.removeItem("dizi");
+    localStorage.removeItem("circles");
+    dizi = [];
+}
+
+function removeTask(e) {
+    if (e.target.className == "fa-solid fa-xmark xmark") {
 
         const task = e.target.parentElement.parentElement;
         task.remove();
@@ -123,38 +90,59 @@ function removeTask(e){
     }
 }
 
-function removeStorage(task){
-
-    dizi.forEach((element, index) =>{
-        if(task.textContent == element){
-            dizi.splice(index, 1);
-        }
-    })
+function removeStorage(task) {
+    dizi = dizi.filter(item => item !== task.textContent);
     localStorage.setItem("dizi", JSON.stringify(dizi));
 }
 
-function removeStorageCircle(taskName){
-    let circles = JSON.parse(localStorage.getItem("circles")) || {};
+function addTask(e) {
+    e.preventDefault();
+    const value = input.value.trim();
 
-    delete circles[taskName];
-    
-    localStorage.setItem("circles", JSON.stringify(circles));
-}
-
-
-function clearAllTask(){
-    if(list.children.length == 0){
-        alert("En az bir görev bulunmalı !");
+    if (value == "") {
+        alert("Lütfen bir görev giriniz !");
         return;
     }
 
-    Array.from(list.children).forEach((element) =>{
-        element.remove();
-    })
+    addNewList(value);
+    addtoStorage(value);
 
-    localStorage.clear();
-    dizi = [];
+    input.value = "";
+    input.focus();
 }
+
+function addtoStorage(value) {
+    dizi.push(value);
+    localStorage.setItem("dizi", JSON.stringify(dizi));
+}
+
+function addNewList(value) {
+    const li = document.createElement("li");
+    li.classList = "showListChild";
+
+    const i = document.createElement("i");
+    i.classList = "fa-solid fa-xmark xmark";
+
+    const i2 = document.createElement("i");
+    i2.classList = "fa-regular fa-circle circle";
+
+    const div = document.createElement("div");
+    div.classList = "todoName";
+    div.textContent = value;
+
+    const div2 = document.createElement("div");
+    div2.classList = "options";
+
+    li.appendChild(div);
+
+    div2.appendChild(i2);
+    div2.appendChild(i);
+
+    li.appendChild(div2);
+    list.appendChild(li);
+}
+
+
 
 
 
