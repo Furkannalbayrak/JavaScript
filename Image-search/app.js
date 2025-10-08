@@ -18,28 +18,44 @@ function clear(e) {
     clearButton.classList.add("hidden");
 }
 
-function search(e){
-
-    const value = searchInput.value.trim();
-
-    //⚠️ Not: Bu proje Unsplash API kullanmaktadır. Kendi kullanımınız için [Unsplash Developers](https://unsplash.com/developers) sayfasından ücretsiz bir API anahtarı
-    // alarak `app.js` dosyasındaki `Authorization` kısmındaki "YOUR_ACCESS_KEY" yerine kendi anahtarınızı eklemeniz gerekmektedir.
-    
-    fetch(`https://api.unsplash.com/search/photos?&query=${value}`, {
-        method: "GET",
-        headers: {
-            Authorization : "Client-ID YOUR_ACCESS_KEY"
-        }
-    })
-    .then((res)=> res.json())
-    .then((data)=>{
-        Array.from(data.results).forEach((img)=>{
-            addImageToUI(img.urls.small);
-        })
-    })
-    .catch((err)=> console.log(err));
-
+// Arama fonksiyonu
+async function search(e) {
     e.preventDefault();
+    
+    const value = searchInput.value.trim();
+    
+    if (!value) {
+        alert("Lütfen bir arama terimi girin!");
+        return;
+    }
+    
+    clearButton.classList.remove("hidden");
+    // Önceki sonuçları temizle
+    imageListWrapper.innerHTML = "";
+    
+    try {
+        const response = await fetch(`https://api.unsplash.com/search/photos?query=${value}&per_page=18`, {
+            method: "GET",
+            headers: {
+                Authorization: "Client-ID PXpXWwyObwG7lCSoHvAHYw57Ebm6QWFQAN1dpv6RRuI"
+            }
+        });
+        
+        const data = await response.json();
+        
+        if (data.results.length === 0) {
+            imageListWrapper.innerHTML = '<p style="color: white; text-align: center; font-size: 18px; grid-column: 1/-1;">Sonuç bulunamadı.</p>';
+            return;
+        }
+        
+        data.results.forEach(img => {
+            addImageToUI(img.urls.regular, img.alt_description || "Unsplash Image");
+        });
+        
+    } catch (err) {
+        console.error("Hata:", err);
+        imageListWrapper.innerHTML = '<p style="color: white; text-align: center; font-size: 18px; grid-column: 1/-1;">Bir hata oluştu. Lütfen tekrar deneyin.</p>';
+    }
 }
 
 // Resmi UI'a ekleme fonksiyonu
@@ -55,5 +71,6 @@ function addImageToUI(url, alt) {
     card.appendChild(img);
     imageListWrapper.appendChild(card);
 }
+
 
 
