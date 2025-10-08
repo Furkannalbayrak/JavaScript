@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arama Uygulamasi</title>
+    <title>PicFind</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <div>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">🔍 PicFind</h1>
+            <p class="subtitle">Milyonlarca ücretsiz fotoğraf keşfedin</p>
+        </header>
+
         <div class="form-wrapper">
             <form id="form">
-                <input class="searchInput" type="text" placeholder="Bir şey ara">
-                <div class="button-wrapper">
-                        <button id="searchButton">Ara</button>
-                        <button id="clearButton">Temizle</button>
+                <div class="search-box">
+                    <input class="searchInput" type="text" placeholder="Search photos" autocomplete="off">
+                    <button type="submit" id="searchButton">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <p>Ara</p>
+                    </button>
+                    <button id="clearButton">
+                        <i class="fa-solid fa-trash"></i>
+                        <p>Sonuçları Temizle</p>
+                    </button>
                 </div>
             </form>
         </div>
@@ -27,7 +39,8 @@
         </div>
     </div>
 
-
     <script src="app.js"></script>
 </body>
 </html>
+
+
