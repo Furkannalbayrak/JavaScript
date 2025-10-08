@@ -1,25 +1,21 @@
-
-const formWrapper = document.querySelector(".form-wrapper");
 const form = document.querySelector("#form");
 const searchInput = document.querySelector(".searchInput");
-const buttonWrapper = document.querySelector(".button-wrapper");
 const searchButton = document.querySelector("#searchButton");
 const clearButton = document.querySelector("#clearButton");
 const imageListWrapper = document.querySelector("#imageList-wrapper");
 
-runEventListeners();
+clearButton.classList.add("hidden");
 
-function runEventListeners(){
-    searchButton.addEventListener("click", search);
-    clearButton.addEventListener("click", clear);
-}
+// Event Listeners
+form.addEventListener("submit", search);
+clearButton.addEventListener("click", clear);
 
-function clear(e){
-    searchInput.value = "";
-    Array.from(imageListWrapper.children).forEach((image)=>{
-        image.remove();
-    })
+// Temizleme fonksiyonu
+function clear(e) {
     e.preventDefault();
+    searchInput.value = "";
+    imageListWrapper.innerHTML = "";
+    clearButton.classList.add("hidden");
 }
 
 function search(e){
@@ -46,17 +42,18 @@ function search(e){
     e.preventDefault();
 }
 
-function addImageToUI(url){
-    const div = document.createElement("div");
-    div.className = "card"
-
+// Resmi UI'a ekleme fonksiyonu
+function addImageToUI(url, alt) {
+    const card = document.createElement("div");
+    card.className = "card";
+    
     const img = document.createElement("img");
-    img.className = "card-picture"
     img.src = url;
-    img.width="400";
-    img.height="400";
-
-    div.appendChild(img);
-    imageListWrapper.appendChild(div);
+    img.alt = alt;
+    img.loading = "lazy";
+    
+    card.appendChild(img);
+    imageListWrapper.appendChild(card);
 }
+
 
