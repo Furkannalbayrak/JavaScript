@@ -37,7 +37,7 @@ async function search(e) {
         const response = await fetch(`https://api.unsplash.com/search/photos?query=${value}&per_page=18`, {
             method: "GET",
             headers: {
-                Authorization: "Client-ID PXpXWwyObwG7lCSoHvAHYw57Ebm6QWFQAN1dpv6RRuI"
+                Authorization: "Client-ID YOUR_ACCESS_KEY"
             }
         });
         
@@ -71,6 +71,7 @@ function addImageToUI(url, alt) {
     card.appendChild(img);
     imageListWrapper.appendChild(card);
 }
+
 
 
 
