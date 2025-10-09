@@ -23,7 +23,7 @@ function pageLoaded() {
     else {
         dizi = JSON.parse(localStorage.getItem("dizi"));
     }
-    //const dizi = JSON.parse(localStorage.getItem("dizi")) || []; //eger dizi yoksa boş dizi oluştur
+    
     const circles = JSON.parse(localStorage.getItem("circles")) || {}; // Eğer circles yoksa boş obje oluştur
 
     dizi.forEach((element) => {
@@ -141,6 +141,7 @@ function addNewList(value) {
     li.appendChild(div2);
     list.appendChild(li);
 }
+
 
 
 
