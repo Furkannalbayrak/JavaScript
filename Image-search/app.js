@@ -32,6 +32,9 @@ async function search(e) {
     clearButton.classList.remove("hidden");
     // Önceki sonuçları temizle
     imageListWrapper.innerHTML = "";
+
+// ⚠️ Not: Bu proje Unsplash API kullanmaktadır. Kendi kullanımınız için [Unsplash API](https://unsplash.com/developers) sayfasından
+// ücretsiz bir API anahtarı alarak `app.js` dosyasındaki `YOUR_ACCESS_KEY` değişkenine kendi anahtarınızı eklemeniz gerekmektedir.
     
     try {
         const response = await fetch(`https://api.unsplash.com/search/photos?query=${value}&per_page=18`, {
@@ -71,5 +74,6 @@ function addImageToUI(url, alt) {
     card.appendChild(img);
     imageListWrapper.appendChild(card);
 }
+
 
 
