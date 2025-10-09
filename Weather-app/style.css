@@ -11,12 +11,12 @@ body{
     background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220313/pngtree-blue-sky-and-white-clouds-weather-hd-photography-background-material-image_1007862.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 .title{
     display: flex;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: 32px;
     width: 100%;
     justify-content: center;
@@ -77,8 +77,9 @@ h2{
 
 
 
-
 @media(max-width:600px){
+    
+
     .sonuclar{
         font-size: 25px;
     }
@@ -88,6 +89,7 @@ h2{
 }
 
 @media(min-width:600px){
+    
     .getCity{
         width: 48%;
     }
@@ -115,8 +117,8 @@ h2{
         font-size: 38px;
     }
 }
-
 @media(min-width:1200px){
+    
     .getCity{
         width: 30%;
     }
@@ -127,6 +129,4 @@ h2{
         font-size: 40px;
     }
 }
-
-
 
