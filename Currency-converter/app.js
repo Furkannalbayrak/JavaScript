@@ -4,6 +4,9 @@ const resultInput = document.querySelector("#result");
 const firstOption = document.querySelector(".firstOption");
 const secondOption = document.querySelector(".secondOption");
 
+// ⚠️ Not: Bu proje Free Currency API kullanmaktadır. Kendi kullanımınız için [Free Currency API](https://freecurrencyapi.com/) sayfasından
+// ücretsiz bir API anahtarı alarak `YOUR_API_KEY` yazan yere kendi anahtarınızı eklemeniz gerekmektedir.
+
 const API_URL = "https://api.freecurrencyapi.com/v1/latest?apikey=YOUR_API_KEY&base_currency=";
 
 runEventListeners();
@@ -34,6 +37,7 @@ async function exchange() {
         resultInput.value = "Hata!";
     }
 }
+
 
 
 
