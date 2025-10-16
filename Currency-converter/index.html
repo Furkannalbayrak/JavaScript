@@ -1,89 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Döviz Kuru Ugulamasi</title>
+    <title>Global Kur | Anlık Döviz Çevirici</title>
+    <meta name="description" content="Kolay ve hızlı döviz kuru çevirici uygulaması">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/7037/7037893.png">
 </head>
 
 <body>
     <div class="main-wrapper">
         <div class="main">
             <div class="title-wrapper">
-                <h3> DÖVİZ KURU ÇEVİRİCİ </h3>
-                <hr>
+                <h3> Global Kur </h3>
             </div>
             <div class="form-wrapper">
-                <input type="number" id="amount" placeholder="miktar giriniz">
-                <select class="firstOption">
-                    <option selected>USD</option>
-                    <option>EUR</option>
-                    <option>TRY</option>
-                    <option>GBP</option>
-                    <option>JPY</option>
-                    <option>CHF</option>
-                    <option>CNY</option>
-                    <option>RUB</option>
-                    <option>INR</option>
-                    <option>CAD</option>
-                    <option>AUD</option>
-                    <option>NZD</option>
-                    <option>SGD</option>
-                    <option>SEK</option>
-                    <option>NOK</option>
-                    <option>DKK</option>
-                    <option>BRL</option>
-                    <option>MXN</option>
-                    <option>ZAR</option>
-                    <option>HKD</option>
-                    <option>KRW</option>
-                    <option>PLN</option>
-                    <option>IDR</option>
-                    <option>THB</option>
-                    <option>MYR</option>
-                </select>
+                <div class="input-group">
+                    <input type="number" id="amount" placeholder="miktar giriniz">
+                    <select class="firstOption">
+                        <option selected>USD</option>
+                        <option>EUR</option>
+                        <option>TRY</option>
+                        <option>GBP</option>
+                        <option>JPY</option>
+                        <option>CHF</option>
+                        <option>CAD</option>
+                        <option>AUD</option>
+                        <option>CNY</option>
+                        <option>RUB</option>
+                        <option>INR</option>
+                        <option>SEK</option>
+                    </select>
 
-                <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
 
-                <select class="secondOption">
-                    <option>USD</option>
-                    <option>EUR</option>
-                    <option selected>TRY</option>
-                    <option>GBP</option>
-                    <option>JPY</option>
-                    <option>CHF</option>
-                    <option>CNY</option>
-                    <option>RUB</option>
-                    <option>INR</option>
-                    <option>CAD</option>
-                    <option>AUD</option>
-                    <option>NZD</option>
-                    <option>SGD</option>
-                    <option>SEK</option>
-                    <option>NOK</option>
-                    <option>DKK</option>
-                    <option>BRL</option>
-                    <option>MXN</option>
-                    <option>ZAR</option>
-                    <option>HKD</option>
-                    <option>KRW</option>
-                    <option>PLN</option>
-                    <option>IDR</option>
-                    <option>THB</option>
-                    <option>MYR</option>
-                </select>
-                <input type="number" id="result" placeholder="sonuc" readonly>
+                    <select class="secondOption">
+                        <option>USD</option>
+                        <option>EUR</option>
+                        <option selected>TRY</option>
+                        <option>GBP</option>
+                        <option>JPY</option>
+                        <option>CHF</option>
+                        <option>CAD</option>
+                        <option>AUD</option>
+                        <option>CNY</option>
+                        <option>RUB</option>
+                        <option>INR</option>
+                        <option>SEK</option>
+                    </select>
+                </div>
 
-                <p>Copyright - Furkan Albayrak</p>
+                <input type="number" id="result" value="0.00" readonly>
+
             </div>
         </div>
+        <p>Copyright - Furkan Albayrak</p>
     </div>
 
-    <script src="currency.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </body>
-
 </html>
+
