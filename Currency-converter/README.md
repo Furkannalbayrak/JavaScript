@@ -5,7 +5,7 @@ Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı ku
 
 ## 🚀 Özellikler
 
-- 25’ten fazla popüler dünya para birimi desteği
+- 10’den fazla popüler dünya para birimi desteği
 - [FreeCurrencyAPI](https://freecurrencyapi.com) üzerinden gerçek zamanlı kur verileri
 - Temiz ve kullanıcı dostu arayüz
 - Otomatik hesaplama (miktar girildiğinde çalışır)
@@ -16,7 +16,6 @@ Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı ku
 - **index.html**: Arayüzü oluşturan ana HTML dosyasıdır. Giriş alanı, para birimi seçenekleri ve sonuç kutusu bu dosyada yer alır.
 - **style.css**: Uygulamanın tasarım ve düzen ayarlarını içerir. Renk, yazı tipi ve yerleşim düzenlemeleri bu dosyada yapılır.
 - **app.js**: Kullanıcı etkileşimlerini kontrol eder. Miktar girildiğinde otomatik olarak hesaplama yapılmasını sağlar.
-- **currency.js**: API’den döviz kurlarını çeker ve para birimi dönüşümünü hesaplar.
 
 ## 💻 Kullanılan Teknolojiler
 
