@@ -22,6 +22,7 @@ Bu proje, kullanıcıların farklı para birimleri arasında gerçek zamanlı ku
 - HTML5  
 - CSS3  
 - JavaScript
+- Font Awesome
 - FreeCurrencyAPI  
 
 ## 🛠 Kurulum ve Kullanım
