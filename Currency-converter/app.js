@@ -4,7 +4,7 @@ const resultInput = document.querySelector("#result");
 const firstOption = document.querySelector(".firstOption");
 const secondOption = document.querySelector(".secondOption");
 
-const API_URL = "https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_eFhJztXAABv9hzv38B0z2VJImC8KBvQ4m5YeP1Ae&base_currency=";
+const API_URL = "https://api.freecurrencyapi.com/v1/latest?apikey=YOUR_API_KEY&base_currency=";
 
 runEventListeners();
 
@@ -34,5 +34,6 @@ async function exchange() {
         resultInput.value = "Hata!";
     }
 }
+
 
 
