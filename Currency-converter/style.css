@@ -1,6 +1,5 @@
 :root {
     --primary-color: #3498db;
-
     --card-background: #ffffff;
     --text-color: #2c3e50;
     --border-color: #dfe6e9;
@@ -166,5 +165,6 @@ p {
         margin-top: 50px;
     }
 }
+
 
 
