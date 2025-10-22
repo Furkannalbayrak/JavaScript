@@ -4,11 +4,9 @@ const resultInput = document.querySelector("#result");
 const firstOption = document.querySelector(".firstOption");
 const secondOption = document.querySelector(".secondOption");
 
-// 🔹 Eklenen bayrak elementleri
 const flag1 = document.querySelector(".flag-1");
 const flag2 = document.querySelector(".flag-2");
 
-// 🔹 Para birimi -> ülke kodu eşleştirmesi
 const countryMap = {
     USD: "us",
     EUR: "eu",
@@ -72,6 +70,7 @@ async function exchange() {
 }
 
 updateFlags();
+
 
 
 
