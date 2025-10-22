@@ -4,6 +4,26 @@ const resultInput = document.querySelector("#result");
 const firstOption = document.querySelector(".firstOption");
 const secondOption = document.querySelector(".secondOption");
 
+// 🔹 Eklenen bayrak elementleri
+const flag1 = document.querySelector(".flag-1");
+const flag2 = document.querySelector(".flag-2");
+
+// 🔹 Para birimi -> ülke kodu eşleştirmesi
+const countryMap = {
+    USD: "us",
+    EUR: "eu",
+    TRY: "tr",
+    GBP: "gb",
+    JPY: "jp",
+    CHF: "ch",
+    CAD: "ca",
+    AUD: "au",
+    CNY: "cn",
+    RUB: "ru",
+    INR: "in",
+    SEK: "se",
+};
+
 // ⚠️ Not: Bu proje Free Currency API kullanmaktadır. Kendi kullanımınız için [Free Currency API](https://freecurrencyapi.com/) sayfasından
 // ücretsiz bir API anahtarı alarak `YOUR_API_KEY` yazan yere kendi anahtarınızı eklemeniz gerekmektedir.
 
@@ -15,6 +35,19 @@ function runEventListeners() {
     amountInput.addEventListener("input", exchange);
     firstOption.addEventListener("change", exchange);
     secondOption.addEventListener("change", exchange);
+
+    firstOption.addEventListener("change", updateFlags);
+    secondOption.addEventListener("change", updateFlags);
+}
+
+function updateFlags() {
+    if (flag1 && flag2) {
+        const first = firstOption.value;
+        const second = secondOption.value;
+
+        flag1.src = `https://flagcdn.com/w20/${countryMap[first]}.png`;
+        flag2.src = `https://flagcdn.com/w20/${countryMap[second]}.png`;
+    }
 }
 
 async function exchange() {
@@ -37,6 +70,8 @@ async function exchange() {
         resultInput.value = "Hata!";
     }
 }
+
+updateFlags();
 
 
 
