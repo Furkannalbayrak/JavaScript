@@ -23,7 +23,7 @@ function pageLoaded() {
     else {
         dizi = JSON.parse(localStorage.getItem("dizi"));
     }
-    
+    //const dizi = JSON.parse(localStorage.getItem("dizi")) || []; //eger dizi yoksa boş dizi oluştur
     const circles = JSON.parse(localStorage.getItem("circles")) || {}; // Eğer circles yoksa boş obje oluştur
 
     dizi.forEach((element) => {
@@ -35,7 +35,7 @@ function pageLoaded() {
 
         const circle = taskItem.querySelector(".circle");
         if (circles[element] == "completed") {
-            circle.style.backgroundColor = "#35B200";
+            circle.classList.add("completed");
         }
     })
     input.focus()
@@ -141,9 +141,6 @@ function addNewList(value) {
     li.appendChild(div2);
     list.appendChild(li);
 }
-
-
-
 
 
 
