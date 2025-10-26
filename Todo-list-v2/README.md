@@ -6,7 +6,7 @@ Bu proje, kullanıcıların görevlerini ekleyip, işaretleyip ve silebildiği b
 
 - Görev ekleme
 - Eklenen görevleri listeleme
-- Görevleri tamamlandı olarak işaretleme (kırmızı daireyle gösterilir)
+- Görevleri tamamlandı olarak işaretleme (yeşil daireyle gösterilir)
 - Görev silme
 - Tüm görevleri temizleme
 - localStorage ile verilerin saklanması
