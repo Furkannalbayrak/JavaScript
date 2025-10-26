@@ -1,4 +1,3 @@
-
 const form = document.querySelector(".form");
 const input = document.querySelector(".getTask");
 const list = document.querySelector(".showList");
@@ -141,6 +140,7 @@ function addNewList(value) {
     li.appendChild(div2);
     list.appendChild(li);
 }
+
 
 
 
